@@ -1,5 +1,5 @@
 import numpy as np
-
+ 
 
 def cargar_datos(ruta_archivo):
     datos = np.genfromtxt(ruta_archivo, delimiter=',', skip_header=1, dtype=None,)
